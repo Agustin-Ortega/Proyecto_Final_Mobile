@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Respirar App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_Mapa">Mapa</string>
+    <string name="btn_estaciones">Estaciones</string>
+    <string name="text_description">El ICF es una institución creada por la Fundación Ciudad de La Plata que promueve un método para la planificación de comunidades y destinos turísticos inteligentes en Argentina y Latinoamérica</string>
+    <string name="text_description2"> El ICF trabaja con metodologías reconocidas internacionalmente, desarrolladas por la Organización de Naciones Unidas (ONU), el Banco Interamericano de Desarrollo (BID), la Fundación FIWARE, el Instituto Argentino de Normalización (IRAM) o la Asociación Española de Normalización (UNE), entre otros</string>
+    <string name="text_description3">El ICF busca la transformación de las comunidades para mejorar la experiencia de los visitantes y la calidad de vida de los residentes.</string>
+    <string name="txt">Listado de estaciones API</string>
+    <string name="mis_estaciones">Estaciones</string>
+    <string name="listado_hitoricos">Historicos</string>
+    <string name="pm10">PM10:</string>
+    <string name="pm1">PM1:</string>
+    <string name="fiabilidiad">FIABILIDAD:</string>
+    <string name="pm25">PM25:</string>
+    <string name="temperature">Temperatura:</string>
+    <string name="fiabilidad">fiabilidad:</string>
+    <string name="value">value</string>
+    <string name="sensor_txt">Sensor id</string>
+
+
+</resources>

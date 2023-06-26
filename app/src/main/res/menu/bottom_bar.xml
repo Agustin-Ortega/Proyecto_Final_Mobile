@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/fragment_Home"
+        android:icon="@drawable/icon_home"
+        android:title="@string/btn_home" />
+    <item
+        android:id="@+id/fragment_Mapa"
+        android:icon="@drawable/icon_mapa"
+        android:title="@string/btn_Mapa" />
+    <item
+        android:id="@+id/fragment_ListadoEstaciones"
+        android:icon="@drawable/icon_estaciones"
+        android:title="@string/btn_estaciones" />
+</menu>

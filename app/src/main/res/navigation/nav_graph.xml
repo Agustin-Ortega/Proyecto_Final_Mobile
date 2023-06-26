@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_Home">
+
+    <fragment
+        android:id="@+id/fragment_Home"
+        android:name="com.example.mapa_app.fragments.Fragment_Home"
+        android:label="fragment__home"
+        tools:layout="@layout/fragment__home" />
+    <fragment
+        android:id="@+id/fragment_Detalle"
+        android:name="com.example.mapa_app.fragments.Fragment_Detalle"
+        android:label="fragment__detalle"
+        tools:layout="@layout/fragment__historico" >
+        <argument
+            android:name="sensor_id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ListadoEstaciones"
+        android:name="com.example.mapa_app.fragments.Fragment_ListadoEstaciones"
+        android:label="fragment__listado_estaciones"
+        tools:layout="@layout/fragment__listado_estaciones" />
+    <fragment
+        android:id="@+id/fragment_Mapa"
+        android:name="com.example.mapa_app.fragments.Fragment_Mapa"
+        android:label="Fragment_Mapa" >
+        <action
+            android:id="@+id/action_fragment_Mapa_to_fragment_Detalle"
+            app:destination="@id/fragment_Detalle"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+</navigation>
